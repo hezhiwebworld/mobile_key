@@ -1,0 +1,63 @@
+html,
+body,
+div,
+span {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+.ui_key {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.ui_key_wrap {
+    width: 100%;
+}
+
+.ui_key_wrap span {
+    width: 33.33%;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+}
+
+input {
+    width: 53px;
+    height: 53px;
+    box-sizing: border-box;
+    letter-spacing: 40px;
+    padding-top: 3px;
+    text-indent: 20px;
+    font-size: .56rem;
+    border-right: 1px solid #e5e5e5;
+    border: none;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.pwd-box {
+    display: inline-block;
+    padding-left: 1px;
+    position: relative;
+    border: 1px solid #9f9fa0;
+    overflow: hidden;
+    text-align: left;
+    font-size: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.pwd-input {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
